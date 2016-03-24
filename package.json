@@ -1,0 +1,30 @@
+{
+  "name": "alexaWhereIsIt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theTechGrandma/whereIsIt.git"
+  },
+  "keywords": [
+    "alexa",
+    "dynamodb"
+  ],
+  "author": "Tammy McClellan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theTechGrandma/whereIsIt/issues"
+  },
+  "homepage": "https://github.com/theTechGrandma/whereIsIt",
+  "dependencies": {
+    "alexa-app": "^2.3.2",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "lodash": "^4.6.1",
+    "mocha": "^2.4.5",
+    "request-promise": "^2.0.1"
+  }
+}
