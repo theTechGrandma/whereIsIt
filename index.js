@@ -18,7 +18,7 @@ app.intent('alexaWhereIsIt',{
 },
 	function(req, res){
 		//get the slot
-		var airport = req.slot('AIRPORTCODE');
+		var airportCode = req.slot('AIRPORTCODE');
 		var reprompt = 'Tell me an airport code to get delay information.';
 
 		if (_.isEmpty(airportCode)){
